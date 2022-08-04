@@ -1,0 +1,13 @@
+.body {
+  padding: 0px;
+  margin: 0px;
+  background-color: rgb(98, 98, 255);
+  color: white;
+  height: 100vh;
+  border: 1px solid black;
+}
+
+.loading {
+  margin: 0px;
+  padding: 0px;
+}

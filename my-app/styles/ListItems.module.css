@@ -1,0 +1,46 @@
+.listItems {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  align-items: center;
+  margin-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /* border: 1px solid black; */
+}
+
+.listItems:hover {
+  background-color: rgb(0, 0, 200);
+  border-radius: 15px;
+}
+
+.itemDetails {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.5vw;
+  /* border: 1px solid black; */
+}
+
+.deleteButton {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+
+.deleteButton>button {
+  background-color: rgb(0, 0, 150);
+  border-radius: 10px;
+  padding-left: 7px;
+  padding-right: 7px;
+  border: 2px solid white;
+  color: white;
+  width: 12vw;
+  height: 3vw;
+  font-size: 1.5vw;
+}
+
+.deleteButton>button:hover {
+  cursor: pointer;
+  background-color: rgb(0, 0, 100);
+}
