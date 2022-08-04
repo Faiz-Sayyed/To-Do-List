@@ -42,7 +42,7 @@ function ListArea({ tasks, addTask, deleteTask }) {
       <div className={styles.inputArea}>
         <div>
           <label htmlFor="name">Enter Task Name</label>
-          <input type="text" id="name" placeholder="Task Name" autocomplete="off" onChange={e => changeName(e)} />
+          <input type="text" id="name" placeholder="Task Name" autoComplete="off" onChange={e => changeName(e)} />
         </div>
 
         <div>
