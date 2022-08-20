@@ -71,7 +71,7 @@ function ListArea({ tasks, addTask, deleteTask }) {
                 ) : (
                   tasks.map((idx) =>
                     <li>
-                      <ListItem idx={idx} key="abc" runDeleteTask={runDeleteTask} />
+                      <ListItem idx={idx} key={idx} runDeleteTask={runDeleteTask} />
                       <hr className={styles.hr} />
                     </li>
                   )

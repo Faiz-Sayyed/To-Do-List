@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from '../../styles/ListItems.module.css'
 
-function ListItems({ idx, runDeleteTask }) {
+function ListItems({ idx, key, runDeleteTask }) {
   return (
     <div className={styles.listItems}>
       <div className={styles.itemDetails}>
