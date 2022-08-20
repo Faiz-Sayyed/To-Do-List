@@ -9,7 +9,9 @@ function TotTasks({ tasks }) {
           Total tasks:
         </div>
         <div>
-          {tasks.length}
+          {
+            (tasks !== null)?tasks.length : 0
+          }
         </div>
       </div>
     </div>
